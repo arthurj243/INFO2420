@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0;
+    background-color: #797979;
+    font-family: Arial, Helvetica, sans-serif; 
+    height: auto;
+}
+
+header {
+    width: 900px;
+    height: 200px;
+    background-color: #CCCCCC; 
+	text-align: center;
+    padding-top: 10px;
+    border: dashed medium navy;
+    margin: auto;
+}
+
+section {
+    width: 900px;
+    background-image: url('Images/2colback.gif'); 
+    background-repeat: repeat-y;
+    overflow: hidden; 
+    border-right: dashed medium navy; 
+    border-left: dashed medium navy;
+    margin: auto;
+}
+
+nav {
+    width: auto; 
+    overflow: auto;
+    float: right;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+article {
+    width: 790px; 
+    padding: 5px;
+    margin: auto;
+}
+
+footer {
+    width: 860px; 
+    padding: 20px;
+    height: 70px; 
+    border: dashed medium navy; 
+    background-color: #CCCCCC;
+    margin: auto;
+}
+
+.logoleft {
+    float: left; 
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+}
+
+nav a {
+    border: 2px inset #CCCCCC; 
+    background-color: maroon; 
+    line-height: 250%; 
+    color: #FFFFFF; 
+    font-weight: bold; 
+    font-size: 17px; 
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover{
+    color: yellow; 
+    border: 2px outset #CCCCCC;
+}
+#container {
+    width: 900px;
+    margin: auto;
+}
+.bannerleft {
+    float: left; 
+    padding-top: 1px;
+    padding-left: 10px;
+}
+#thumbs, #image {
+width: 790px; 
+border: solid 1px #000; 
+text-align: center; 
+margin: 0 auto 0 auto; 
+color: #000; 
+background: #CCCCCC; 
+padding: 5px;
+}
+
+#thumbs {
+margin-top: 10px;
+}
+
+
+#thumbs img {
+border: solid 1px #000; margin: 5px;
+}
+
+#image{
+height:350px;
+}
+
+.instructions{
+font-style:italic;
+}
+.floatright {
+    float: right;
+    margin: 0 0 10px 10px;
+    padding: 5px;
+}
+.floatleft {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    width: 500px;
+}
