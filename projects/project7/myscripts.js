@@ -1,16 +1,4 @@
 // JavaScript Document
-PrintButton1 = new Image
-	PrintButton2 = new Image
-	logo1 = new Image
-	logo2 = new Image
-if (document.images) {
-	PrintButton1.src = "examplebuttons/print1.png"
-	PrintButton2.src = "examplebuttons/print2.png"
-	logo1.src = "examplebuttons/logo1.png"
-	logo2.src = "examplebuttons/logo2.png"
-}
-
-
 var imgArray = new Array(
     'CoupleBike1Lg2.jpg',
     'CoupleSnowBoardLg2.jpg',

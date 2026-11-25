@@ -19,7 +19,7 @@ header {
 
 section {
     width: 900px;
-    background-image: url('Images/2colback.gif'); 
+    background-image: url('images/2colback.gif');
     background-repeat: repeat-y;
     overflow: hidden; 
     border-right: dashed medium navy; 
